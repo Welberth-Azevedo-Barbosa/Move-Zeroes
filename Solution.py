@@ -1,5 +1,5 @@
 class Solution:
-    def niveZeroes(self, nums: List[int]) -> None:
+    def moveZeroes(self, nums: List[int]) -> None:
         slow = 0
         for fast in range(len(nums)):
             if nums[fast] != 0 and nums[slow] == 0:
